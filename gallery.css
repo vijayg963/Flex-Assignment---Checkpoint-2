@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom css */
+
+
+.gallery{
+    width: 74%;
+    margin-left: 26%;
+    display: flex;
+    flex-direction: row;
+}
+.gallery-a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.gallery-b{
+    display: flex;
+    flex-direction: column;
+}
+.top-line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+h3{
+    font-size: 28px;
+    color: white;
+    font-weight: 900;
+}
+h4{
+    font-size: 42px;
+    font-weight: bolder;
+    padding: 20px 0;
+    margin-left: 300px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.left-sided{
+    text-align: left;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ea513e;
+}    
+.logo-img{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px 0;
+    border: none;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+a{  
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    margin: 10px 5px;
+    width: 15px;
+    height: 15px;
+    padding: 12.5px 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+img{
+    width: 420px;
+    margin: 20px;
+    border: 2px solid #444444;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.button a{
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+    margin: 0 20px;
+    margin-left: 40px;
+    background-color: #ea513e ;
+    border-radius: 0px;
+}
+.bottom-line{
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
