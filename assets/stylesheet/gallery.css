@@ -59,7 +59,7 @@ table {
 .gallery-a{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin-bottom: 40px;
 }
 .gallery-b{
     display: flex;
