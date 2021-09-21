@@ -59,11 +59,12 @@ table {
 .gallery-a{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .gallery-b{
     display: flex;
     flex-direction: column;
+	justify-content: space-between;
 }
 .top-line{
     display: flex;

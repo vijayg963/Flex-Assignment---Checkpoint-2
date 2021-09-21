@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex|Assignment-checkpoint-2</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./stylesheet/style.css">
     <script src="https://kit.fontawesome.com/45e230a567.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,25 +14,25 @@
 <body>
     <header>
         <section class="section-1 overlay" >
-            <div class="header-logo">
+            <nav class="header-logo">
                 <a href="#"><i class="fab fa-facebook"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-skype"></i></a>
                 <a href="#"><i class="fab fa-linkedin"></i></a>
-            </div>
+            </nav>
         <div class="logo-nav sticky">
             <div class="logo-left">   
                 <img src="./media/logo.png" alt="logo">
                 <a class="flex" href="#">FLEX</a>
             </div>
-            <div class="header-menu">
-                <a href="./index.html">HOME</a>
+            <nav class="header-menu">
+                <span class="home-border"><a href="./index.html">HOME</a></span> 
                 <a href="#services">SERVICE</a>
                 <a href="#portfolio">PORTFOLIO</a>
                 <a href="#team">TEAM</a>
                 <a href="./gallery.html">GALLERY</a>
                 <a href="#contact">CONTACT</a>
-            </div>
+            </nav>
         </div>
             <div class="header-part">
                 <h1>DIGITAL MARKETING</h1>
@@ -43,21 +43,21 @@
     </section>
     </header>
     <main>
-            <div>
-                <span class="dot dot-1"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </div>
+        <span>
+            <span class="dot dot-1"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </span>
         <section class="section-2">
         <div>
             <h2 id="services"><u>OUR SERVICES</u></h2>
             <h3>WE DESIGN MOBILE-FIRST WEBSITES FOR YOU</h3>
-            <div class="service-tag">
+            <nav class="service-tag">
                 <a class="service-a tag" href="#"><i class="fas fa-file-code"></i></a>
                 <a class="service-b tag" href="#"><i class="fab fa-telegram"></i></a>
                 <a class="service-c tag" href="#"><i class="fas fa-university"></i></a>
                 <a class="service-d tag" href="#"><i class="fas fa-flask"></i></a>
-            </div>
+            </nav>
         </div>    
         </section>
         <section class="section-3">
@@ -109,11 +109,10 @@
         <section class="section-6">
             <h2 id="contact"> <u>CONTACT</u> </h2>
             <h3>SEND A MASSAGE TO US</h3>
-            <map name="altcampus"></map>
             <iframe  class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6315.683581613548!2d76.35050839081694!3d32.20664210449365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b530e24726e0d%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1630836790227!5m2!1sen!2sin" width="1200" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
         </section>
         <section class="section-7">
-            <div class="left-section">
+            <article class="left-section">
                 <p >
                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi itaque similique facere perspiciatis nulla. Repudiandae ab optio quae porro reprehenderit consequatur. Totam perspiciatis porro eos sequi ducimus commodi quasi alias!
                 </p>
@@ -123,12 +122,14 @@
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi itaque similique facere perspiciatis nulla. Repudiandae ab optio quae porro reprehenderit consequatur. Totam perspiciatis porro eos sequi ducimus commodi quasi alias!
                 </p>
-                <a href="phone">PHONE: 033-033-0660</a> <br>
-                <a href="email">Email: info@company.com</a>
-                <address>
-                    Address: BBO De Best Studio, Fork Street, San Francisco
-                </address>
-            </div>
+                <nav>
+                    <a href="phone">PHONE: 033-033-0660</a> <br>
+                    <a href="email">Email: info@company.com</a>
+                    <address>
+                        Address: BBO De Best Studio, Fork Street, San Francisco
+                    </address>
+                </nav>
+            </article>
             <div class="right-section">
                 <div class="box-1">You Name</div>
                 <div class="box-1">You Email</div>
@@ -140,7 +141,7 @@
     </main>
     <footer>
         <div>
-            <P>Copyright &copy 2020 Company Name, Design, TemplateMo</P>
+            <small>Copyright &copy 2020 Company Name, Design, TemplateMo</small>
         </div>
         <button><a class="back-to-top" href="./index.html">BACK TO TOP</a></button>
     </footer>

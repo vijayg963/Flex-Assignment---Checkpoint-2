@@ -72,7 +72,7 @@ table {
  a{text-decoration: none;}
  
  body{
-     background-image: url("./media/banner.jpg");
+     background-image: url("../media/banner.jpg");
      background-repeat: no-repeat;
      text-align: center;
      color-adjust: 20%;
@@ -234,7 +234,13 @@ table {
     width: 20%;
     border-radius: 50%;
 }
-
+.home-border {
+    border-top: 5px solid #E68038;
+    padding: 36px 0;
+}
+.home-border a{
+    color: #E68038;
+}
 .skills{
     width: 80%;
     margin: 0 10%;
